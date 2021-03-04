@@ -7,7 +7,8 @@ public class ReverseArray {
 			int tmp = A[i];
 			A[i] = A[j];
 			A[j] = A[tmp];
-			reverso(A, ++i, --j);			
+			reverso(A, ++i, --j);
+			
 		}		
 	}	
 }
